@@ -1,0 +1,492 @@
+{
+  "title": "DECAKILL 문제 출제",
+  "axios": {
+    "serverError": "서버에 호출이 들어가지 않았습니다. url을 확인하세요.",
+    "apiError": "문제가 발견되었습니다. 관리자에게 문의하세요.",
+    "updateSuccess": "성공적으로 업데이트하였습니다.",
+    "putSuccess": "성공적으로 추가되었습니다.",
+    "deleteSuccess": "성공적으로 삭제되었습니다.",
+    "title": {
+      "400": "로그인 에러"
+    },
+    "desc": {
+      "400": "로그인 에러입니다."
+    },
+    "quiz": {
+      "success": {
+        "createQuizItem": "문제 아이템 추가를 성공하였습니다.",
+        "createQuizType": "문제 타입 추가를 성공하였습니다.",
+        "createQuizGroup": "문제 그룹 추가를 성공하였습니다.",
+        "createQuiz": "문제 내용 추가를 성공하였습니다.",
+        "updateQuiz": "문제 내용 수정을 성공하였습니다.",
+        "orderQuiz": "문제 순서 수정을 성공하였습니다.",
+        "updateQuizItem": "문제 아이템 수정을 성공하였습니다.",
+        "deleteQuizType": "문제 타입 삭제를 성공하였습니다.",
+        "deleteQuiz": "문제 내용 삭제를 성공하였습니다."
+      },
+      "fail": {
+        "createQuizItem": "문제 아이템 추가를 실패하였습니다.",
+        "createQuizType": "문제 타입 추가를 실패하였습니다.",
+        "createQuizGroup": "문제 그룹 추가를 실패하였습니다.",
+        "createQuiz": "문제 내용 추가를 실패하였습니다.",
+        "updateQuiz": "문제 내용 수정을 실패하였습니다.",
+        "orderQuiz": "문제 순서 수정을 실패하였습니다.",
+        "deleteQuizType": "문제 타입 삭제을 실패하였습니다.",
+        "deleteQuiz": "문제 내용 삭제을 실패하였습니다."
+      }
+    },
+    "quizBank": {
+      "success": {
+        "createBankXlsxData": "문제 은행 엑셀 데이터 업로드를 성공하였습니다."
+      },
+      "fail": {
+        "createBankXlsxData": "문제 은행 엑셀 데이터 업로드를 실패하였습니다."
+      }
+    },
+    "join": {
+      "success": {
+        "joinPermit": "업데이트를 성공하였습니다."
+      },
+      "fail" : {
+        "joinPermit": "업데이트를 실패하였습니다."
+      }
+    },
+    "management": {
+      "success": {
+        "updateManagement": "계정 수정을 성공하였습니다."
+      },
+      "fail": {
+        "updateManagement": "계정 수정을 실패하였습니다."
+      }
+    },
+    "schedule": {
+      "success": {
+        "createSteamerSchedule": "스트리머 스케쥴 추가를 성공하였습니다."
+      },
+      "fail": {
+        "createSteamerSchedule": "스트리머 스케쥴 추가를 실패하였습니다."
+      }
+    }
+  },
+  "type": {
+    "e-sport": "E-Sport",
+    "streamer":"Streamer"
+  },
+  "menu": {
+    "home": "메인 화면",
+    "monitor": "예측 화면", 
+    "bank": "문제 은행",
+    "refresh": "데이터 초기화",
+    "authority": "등급 관리",
+    "signboard": "응원하기",
+    "accountCode": "코드 생성",
+    "codeTraker": "코드 추적"
+  },
+  "gameList": {
+    "league_of_legend": "리그 오브 레전드",
+    "valorant": "발로란트",
+    "wildrift": "와일드 리프트",
+    "overwatch": "오버워치",
+    "battle_grounds": "배틀 그라운드",
+    "steamer": "스트리머"
+  },
+  "game": {
+   "gameCount": "총 @개의 경기",
+   "close": "종료",
+   "live": "LIVE",
+   "expected": "예정",
+   "button": {
+     "null": "문제 등록",
+     "0": "문제 등록",
+     "1": "세팅 완료",
+     "2": "문제 진행중",
+     "3": "결과 확인",
+     "4": "문제 등록중"
+   }
+  },
+  "management": {
+    "manageCount": "총 @개의 계정이 있습니다.",
+    "addAccount": "계정 추가",
+    "menu": {
+      "management": "계정 관리",
+      "joinAccet": "가입 승인",
+      "history": "히스토리"
+    },
+    "label": {
+      "broadcastType":"방송 유형",
+      "grade": "계정 등급",
+      "state": "계정 상태",
+      "joinConfirm":"가입 승인",
+      "joinReject":"가입 반려",
+      "rejectReason": "반려 사유"
+    },
+    "desc": {
+      "rejectReason": "반려 사유를 입력해주세요."
+    },
+    "accountGrade": {
+      "1": "Suppervisor",
+      "2": "Manager"
+    },
+    "accountState": {
+      "1": "Normal",
+      "2": "Super"
+    },
+    "accountFunc": {
+      "edit": "정보수정",
+      "create": "계정추가"
+    },
+    "deleteAccount": {
+      "desc": "@ 계정을 삭제하시겠습니까?\n 삭제하시면 다시 되돌릴 수 없습니다."
+    },
+    "accountTable": {
+      "header": {
+        "no": "번호",
+        "id": "ID",
+        "channel": "CHANNEL",
+        "email": "E-mail",
+        "broadcastType": "방송 유형",
+        "grade": "회원 등급",
+        "note": "비고",
+        "edit": "수정",
+        "delete": "삭제",
+        "joinDate": "신청 날짜",
+        "checkAccept": "승인 여부",
+        "checkJoin": "가입 여부",
+        "processingDate": "처리 날짜"
+      }
+    }
+  },
+  "bank": {
+    "title": "문제 은행",
+    "uploadQuiz": {
+      "title": "문제 업로드"
+    },
+    "downloadQuiz": {
+      "desc": "문제를 엑셀(.Xlsx)파일로 받으시겠습니까?(현재 미지원)"
+    },
+    "button": {
+      "addQuiz": "문제 추가",
+      "downloadQuiz": "문제 다운로드",
+      "uploadQuiz": "문제 업로드",
+      "quizLoad": "문제 불러오기"
+    },
+    "table": {
+      "title": "총 @개의 문제가 등록되었습니다.",
+      "column": {
+        "no": "번호",
+        "status": "경기 상태",
+        "quizName": "퀴즈 이름",
+        "level": "난이도",
+        "game": "사용 게임",
+        "answer": "답안 개수",
+        "fix": "수정",
+        "del": "삭제"
+      },
+      "delete": {
+        "title": "퀴즈 삭제",
+        "desc": "해당 퀴즈를 삭제하시겠습니까?"
+      }
+    }
+
+  },
+  "monitor": {
+    "tab": {
+      "quiz": "문제 출제",
+      "notice": "공지 사항"
+    },
+    "status": {
+     "1": "출제 대기",
+     "2": "출제 진행중",
+     "3": "처리중...",
+     "4": "투표마감",
+     "5": "결과마감"
+    },
+    "RealTime" : {
+      "subject": "실시간 승률"
+    },
+    "body": {
+      "tooltip" : "문제 설명이 추가로 필요한 경우 최대 70자까지 넣을 수 있습니다.", 
+      "additionalDesc": "문제 설명",
+      "gameState": "경기 상태",
+      "closeTime": "마감 시간",
+      "answerType": "답안 개수",
+      "fixedKill": "정답 시 부여 킬",
+      "gameStateList": {
+        "0": "선택",
+        "1": "경기 전",
+        "2": "초반",
+        "3": "중반",
+        "4": "후반",
+        "5": "경기 후"
+      },
+      "gameSlot": "슬롯",
+      "gameSlotList": {
+        "select": "선택",
+        "selected": "개"
+      },
+      "fixKillSlotList": {
+        "0": "선택",
+        "1": "싱글킬(1)",
+        "2": "더블킬(2)", 
+        "3": "트리플킬(3)", 
+        "4": "쿼드라킬(4)", 
+        "5": "펜타킬(5)", 
+        "6": "헥사킬(6)", 
+        "7": "헵타킬(7)",
+        "8": "옥타킬(8)",
+        "9": "노나킬(9)",
+        "10": "데카킬(10)"
+      },
+      "placeHolder": {
+        "subject": "문제를 작성해주세요. 공백 포함 50자까지 작성 가능합니다."
+      },
+      "radioGroup": {
+        "competition": "예측",
+        "simple": "퀴즈",
+        "trivia": "설문"
+      }
+    },
+    "footer": {
+      "upload": "문제 로드",
+      "store": "문제 저장",
+      "temporarySave": "임시 저장",
+      "output": "문제 출제",
+      "reject": "출제 취소",
+      "stop": "조기 종료",
+      "settle": "최종 정산",
+      "correct": "정답 처리",
+      "allCorrect": "전체 정답 처리"
+    },
+    "addQuiz": "문제 추가하기",
+    "refresh": "새로고침",
+    "notice": {
+      "input": {
+        "label": "공지사항 입력",
+        "placeholder": "유저들에게 발송할 공지사항을 입력해주세요.(최대 50자)",
+        "submit": "발송하기"
+      },
+      "table": {
+        "no": "번호",
+        "time": "발송 시간",
+        "message": "발송한 메시지",
+        "state": "발송 상태",
+        "resend": "재발송"
+      },
+      "send-state" : {
+        "0": "게시종료",
+        "1": "게시중"
+      },
+      "modal": {
+        "title": {
+          "send": "공지사항 발송하기",
+          "resend": "공지사항 재발송하기"
+        },
+        "button": {
+          "send": "발송하기",
+          "resend": "재발송하기"
+        }
+      }
+    }
+  },
+  "common": {
+    "all": "전체",
+    "league": "리그",
+    "season": "시즌",
+    "userName": "유저명",
+    "search": "검색",
+    "kill": "킬",
+    "death:": "데스",
+    "today": "오늘",
+    "caution": "주의",
+    "select": "선택",
+    "find": "찾아보기",
+    "game": "게임",
+    "confirm": "승인",
+    "reject": "반려",
+    "content": "내용",
+    "writer": "작성자",
+    "time": {
+      "hour": "시",
+      "min": "분",
+      "sec": "초"
+    },
+    "button": {
+      "confirm": "확인",
+      "cancel": "취소"
+    },
+    "calendar": {
+      "month": {
+        "1": "1월",
+        "2": "2월",
+        "3": "3월",
+        "4": "4월",
+        "5": "5월",
+        "6": "6월",
+        "7": "7월",
+        "8": "8월",
+        "9": "9월",
+        "10": "10월",
+        "11": "11월",
+        "12": "12월"
+      }
+    }
+  },
+  "streamer" : {
+    "index": {
+      "button": {
+        "addGame": "게임 추가"
+      }
+    }
+  },
+  "sign": {
+    "needToSign": "계정이 없으신가요? ",
+    "twitchAuth": {
+      "title": " 트위치 인증",
+      "inputDesc": " 트위치에서 확인할 수 있는 데카킬 익스텐션의 인증 토큰을 입력해주세요.",
+      "authButton": "인증",
+      "modalTitle": "인증이 요청되었습니다",
+      "modalContent": "트위치 채널로 돌아가 인증 완료 버튼을 눌러주세요. 인증이 활성화 되지 않을 경우 Extension Code를 확인해주세요."
+    },
+    "searchPassword": {
+      "placeholder": "Decakill Extension Code를 입력해주세요.",
+      "error": {
+        "title": {
+          "code": "코드 에러"
+        },
+        "desc": {
+          "code": "해당 코드로 잦은 가입 실패가 발생되었습니다.\n이에, 아래 메일로 자세한 사항을 보내주시면 대응하겠습니다."
+        }
+      }
+    },
+    "goLogin": {
+      
+    },
+    "cancel": {
+      "title": {
+        "goLogin":"회원가입 취소",
+        "searchPassword": "비밀번호 찾기 취소"
+      },
+      "desc": "로그인 페이지로 돌아가시겠습니까?"
+    }
+  },
+  "login": {
+    "title": {
+      "id": "ID 로그인",
+      "code": "일회용 번호"
+    },
+    "label": {
+      "signUp": "회원가입",
+      "resetPassword": "비밀번호 재설정"
+    },
+    "fail": {
+      "waitAuth": "현재 인증 대기 중 입니다. 관리자에게 문의 부탁드립니다.",
+      "checkInfo": "아이디와 패스워드를 확인하세요."
+    },
+    "placeholder": {
+      "loginCode": "Code를 입력해주세요."
+    }
+  },
+  "accountCode": {
+    "header": {
+      "title": "코드 생성",
+      "createInfinityAccountCode": "영구적 코드 생성",
+      "createOneTimeAccountCode": "일회성 코드 생성"
+    },
+    "desc": {
+      "createInfinityAccountCode": "영구 코드는 다회 접속이 가능한 코드입니다.\n재발급 시 기존 접속이 해제되며, 변경된 코드로만 접속 가능합니다.",
+      "createOneTimeAccountCode": "일회성 코드는 한번 사용하면 다시 사용할 수 없는 코드입니다.\n재발급 시 기존 접속이 해제되며, 변경된 코드로만 접속 가능합니다."
+    },
+    "clipboard": {
+      "success": "코드를 클립보드에 복사하였습니다.",
+      "fail": "코드를 클립보드에 복사하지 못하였습니다."
+    }
+  },
+  "signboard": {
+    "label": {
+      "current": "현재 응원하기",
+      "accept": "게시하기",
+      "reject": "반려하기",
+      "open": "응원하기 오픈",
+      "openSetting": "응원하기 오픈 설정",
+      "requestList": "응원하기 신청 리스트",
+      "openTime": "오픈 시간(초)",
+      "emergancy": "긴급 중단",
+      "resumption": "게시 재개",
+      "delete": "글 삭제"
+    },
+    "desc": {
+      "noData": "응원하기에 신청된 글이 없습니다.",
+      "emergancy": "현재 출력 중인 응원하기를 긴급 중단하시겠습니까?",
+      "resumption": "중단된 응원하기를 재개하시겠습니까?",
+      "delete": "중단된 응원하기를 삭제하시겠습니까?"
+    },
+    "button": {
+      "open": "오픈",
+      "continue": "진행 중",
+      "close": "마감",
+      "post": "게시",
+      "posting": "게시 중",
+      "resumption": "재개",
+      "stopping": "중단중"
+    },
+    "table": {
+      "column": {
+        "idx": "번호",
+        "uid": "ID",
+        "regDate": "시간",
+        "displayName": "CONTEXT",
+        "state": "승인 여부"
+      }
+    }
+  },
+  "customErr": {
+    "title": {
+      "403-idx": "None User Idx",
+      "403-uid": "Check ID",
+      "403-password": "Check Password",
+      "403-email": "Check Email",
+      "403-securityLevel": "Check Grade",
+      "403-accountsType": "Check Type",
+      "403-game": "Game Selection Required",
+      "quiz-no-name": "Need Quiz Name",
+      "quiz-no-matchState": "Need Quiz Match State",
+      "quiz-low-times": "Need Quiz End Time",
+      "quiz-no-item": "Need Quiz Answer",
+      "quiz-item-no-name": "Need Quiz Answer Name",
+      "socket-error": "Socket Error",
+      "quiz-need-fix-kill": "Need Fix Kill"
+    },
+    "desc": {
+      "403-idx": "User의 Idx가 없습니다.",
+      "403-uid": "아이디를 확인해주세요.",
+      "403-password": "비밀번호를 확인해주세요.",
+      "403-email": "이메일을 확인해주세요.",
+      "403-securityLevel": "등급을 확인해주세요.",
+      "403-accountsType": "타입을 확인해주세요.",
+      "403-game": "게임을 선택하여주세요.",
+      "quiz-no-name": "퀴즈 제목 설정이 필요합니다.",
+      "quiz-no-matchState": "퀴즈 경기 상태 설정이 필요합니다.",
+      "quiz-low-times": "퀴즈 마감 시간이 15초 이상이 되어야 합니다.",
+      "quiz-no-item": "퀴즈 답안이 필요합니다.",
+      "quiz-item-no-name": "퀴즈 답안에 빈 항목이 있습니다.",
+      "socket-error": "소켓 에러가 발생하였습니다.",
+      "quiz-need-fix-kill": "고정 킬 선택이 필요합니다."
+    }
+  },
+  "codeTraker": {
+    "title": "코드 추적기",
+    "table": {
+      "column": {
+        "no": "번호",
+        "accountType": "계정 타입",
+        "chennel": "채널 이름",
+        "code": "영구 코드",
+        "reissuance": "재발급"
+      },
+      "button": {
+        "reissuance":"재발급"
+      }
+    }
+  },
+  "none": ""
+}

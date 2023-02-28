@@ -1,0 +1,71 @@
+{
+  "allowHttpBackend": false,
+  "backendCommand": "",
+  "backendFolderName": "",
+  "certificateExceptions": [],
+  "extensionViews": [],
+  "manifest": {
+    "anchor": "video_overlay",
+    "assetUrls": [],
+    "authorName": "Team Snowball Inc.",
+    "bitsEnabled": true,
+    "canInstall": true,
+    "configUrl": "http://localhost:8080/index.html",
+    "configurationLocation": "none",
+    "description": "게임 속의 또 다른 전장, DECAKILL과 함께 시청자들과 경쟁하세요.\n실시간으로 출제되는 문제의 답을 맞추고 킬포인트를 얻어 높은 랭킹을 달성하세요.\n보다 적은 수의 선택을 받은 예측일수록 적중 시 더 많은 킬포인트가 주어집니다. 싱글킬, 더블킬을 넘어 데카킬(10킬)을 달성해보세요!\n연속으로 정답을 맞춰 콤보킬을 얻고 더 높은 순위를 달성해보세요. 높은 랭킹을 달성하면 다양한 경품이 쏟아집니다!",
+    "eulaTosUrl": "",
+    "hasChatSupport": true,
+    "iconUrl": "https://extensions-discovery-images.twitch.tv/kajegnvw8zu0ycfsue38b6r488grzd/0.0.1/logo7ae30b99-f1d9-4587-9ceb-90236b58d4e8",
+    "iconUrls": {
+      "100x100": "https://extensions-discovery-images.twitch.tv/kajegnvw8zu0ycfsue38b6r488grzd/0.0.1/logo7ae30b99-f1d9-4587-9ceb-90236b58d4e8",
+      "24x24": "https://extensions-discovery-images.twitch.tv/kajegnvw8zu0ycfsue38b6r488grzd/0.0.1/taskbar39b06103-f937-4073-bc89-a0ad9e5c11f1",
+      "300x200": "https://extensions-discovery-images.twitch.tv/kajegnvw8zu0ycfsue38b6r488grzd/0.0.1/discovery6ddbd12b-34ec-44b5-a0b0-4b535631bc8e"
+    },
+    "id": "kajegnvw8zu0ycfsue38b6r488grzd",
+    "installationCount": -42,
+    "liveConfigUrl": "http://localhost:8080/index.html",
+    "name": "DECAKILL",
+    "panelHeight": 0,
+    "privacyPolicyUrl": "",
+    "requestIdentityLink": true,
+    "requiredBroadcasterAbilities": [],
+    "screenshotUrls": [
+      "https://extensions-discovery-images.twitch.tv/kajegnvw8zu0ycfsue38b6r488grzd/0.0.1/screenshot06698c20-a274-4a8c-b92d-348eec716483",
+      "https://extensions-discovery-images.twitch.tv/kajegnvw8zu0ycfsue38b6r488grzd/0.0.1/screenshot9d70b797-15a0-4e67-92aa-fcfbee3e2644",
+      "https://extensions-discovery-images.twitch.tv/kajegnvw8zu0ycfsue38b6r488grzd/0.0.1/screenshot00bca247-6bcf-497b-833e-28bf277453df"
+    ],
+    "sku": "",
+    "state": "Testing",
+    "subscriptionsSupportLevel": "none",
+    "summary": "게임팬을 위한 실시간 예측 및 퀴즈 플랫폼",
+    "supportEmail": "sild12012@teamsnowball.com",
+    "vendorCode": "",
+    "version": "0.0.3",
+    "viewerSummary": "게임 속의 또 다른 전장 DECAKILL에서 다양한 예측을 맞춰 다른 시청자들과 소통하고 경쟁하세요.",
+    "viewerUrl": "",
+    "viewerUrls": {
+      "videoOverlay": "http://localhost:8080/index.html"
+    },
+    "views": {
+      "videoOverlay": {
+        "viewerUrl": "http://localhost:8080/index.html",
+        "canLinkExternalContent": false
+      },
+      "config": {
+        "viewerUrl": "http://localhost:8080/index.html",
+        "canLinkExternalContent": false
+      },
+      "liveConfig": {
+        "viewerUrl": "http://localhost:8080/index.html",
+        "canLinkExternalContent": false
+      }
+    },
+    "whitelistedConfigUrls": [],
+    "whitelistedPanelUrls": []
+  },
+  "frontendCommand": "ㅛㅁ",
+  "frontendFolderName": "/Users/sehyungoh/Desktop/B2cFrontendDecakillExtension-product",
+  "name": "Decakill",
+  "usingRandomFrontendHostingPort": false,
+  "version": 3
+}

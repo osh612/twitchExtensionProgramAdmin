@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ico-drag" transform="translate(-344 -383)">
+    <rect id="사각형_1722" data-name="사각형 1722" width="30" height="30" transform="translate(344 383)" fill="#fff" opacity="0"/>
+    <circle id="타원_23" data-name="타원 23" cx="2" cy="2" r="2" transform="translate(352 386)" fill="#444"/>
+    <circle id="타원_25" data-name="타원 25" cx="2" cy="2" r="2" transform="translate(352 396)" fill="#444"/>
+    <circle id="타원_27" data-name="타원 27" cx="2" cy="2" r="2" transform="translate(352 406)" fill="#444"/>
+    <circle id="타원_24" data-name="타원 24" cx="2" cy="2" r="2" transform="translate(362 386)" fill="#444"/>
+    <circle id="타원_26" data-name="타원 26" cx="2" cy="2" r="2" transform="translate(362 396)" fill="#444"/>
+    <circle id="타원_28" data-name="타원 28" cx="2" cy="2" r="2" transform="translate(362 406)" fill="#444"/>
+  </g>
+</svg>

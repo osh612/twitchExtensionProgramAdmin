@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ico-trash" transform="translate(-344 -383)">
+    <rect id="사각형_1722" data-name="사각형 1722" width="30" height="30" transform="translate(344 383)" fill="#fff" opacity="0"/>
+    <g id="그룹_2605" data-name="그룹 2605" transform="translate(349.407 386.99)">
+      <rect id="사각형_2000" data-name="사각형 2000" width="19" height="2" transform="translate(0.093 4.01)" fill="#444"/>
+      <rect id="사각형_2003" data-name="사각형 2003" width="15" height="2" transform="translate(2.093 20.01)" fill="#444"/>
+      <rect id="사각형_2008" data-name="사각형 2008" width="2" height="4" transform="translate(5.093 0.01)" fill="#444"/>
+      <rect id="사각형_2009" data-name="사각형 2009" width="2" height="4" transform="translate(12.093 0.01)" fill="#444"/>
+      <rect id="사각형_2001" data-name="사각형 2001" width="18" height="2" transform="translate(4.093 4.01) rotate(90)" fill="#444"/>
+      <rect id="사각형_2002" data-name="사각형 2002" width="18" height="2" transform="translate(17.093 4.01) rotate(90)" fill="#444"/>
+      <rect id="사각형_2004" data-name="사각형 2004" width="10" height="1" transform="translate(7.093 8.01) rotate(90)" fill="#444"/>
+      <rect id="사각형_2005" data-name="사각형 2005" width="10" height="1" transform="translate(10.093 8.01) rotate(90)" fill="#444"/>
+      <rect id="사각형_2006" data-name="사각형 2006" width="10" height="1" transform="translate(13.093 8.01) rotate(90)" fill="#444"/>
+      <rect id="사각형_2010" data-name="사각형 2010" width="9" height="2" transform="translate(5.093 0.01)" fill="#444"/>
+    </g>
+  </g>
+</svg>

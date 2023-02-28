@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ico-edit" transform="translate(-0.4)">
+    <rect id="사각형_1470" data-name="사각형 1470" width="20" height="20" transform="translate(0.4)" fill="#5d5d5d" opacity="0"/>
+    <path id="합치기_31" data-name="합치기 31" d="M-4455.248,5031.845l0,0,5.686-5.684,2.352,2.35-5.686,5.684h0l-3.157.807Zm8.622-3.925-2.351-2.35,1.57-1.571,2.352,2.351-1.57,1.569h0Z" transform="translate(4463.455 -5022)" fill="#ccc"/>
+    <path id="빼기_7" data-name="빼기 7" d="M1071.4,469h-14V455h7v2h-5v10h10v-5h2v7Z" transform="translate(-1055 -451)" fill="#ccc"/>
+    <path id="패스_938" data-name="패스 938" d="M9.4,4V6.011L11.334,4Z" fill="#ccc"/>
+    <path id="패스_939" data-name="패스 939" d="M9.4,4V6.011L11.4,4Z" transform="translate(25.8 14.999) rotate(180)" fill="#ccc"/>
+  </g>
+</svg>

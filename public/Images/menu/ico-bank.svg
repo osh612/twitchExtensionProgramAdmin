@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ico-bank" opacity="0.5">
+    <rect id="사각형_1464" data-name="사각형 1464" width="24" height="24" fill="#fff" opacity="0"/>
+    <path id="패스_1277" data-name="패스 1277" d="M20.373,8.432h-18V6.423L11.52,2.432l8.853,3.991Z" transform="translate(0.627 -0.432)" fill="#fff"/>
+    <rect id="사각형_2067" data-name="사각형 2067" width="3" height="9" transform="translate(5 9)" fill="#fff"/>
+    <rect id="사각형_2071" data-name="사각형 2071" width="2" height="16" transform="translate(20 19) rotate(90)" fill="#fff"/>
+    <rect id="사각형_2072" data-name="사각형 2072" width="2" height="18" transform="translate(21 20) rotate(90)" fill="#fff"/>
+    <rect id="사각형_2068" data-name="사각형 2068" width="3" height="9" transform="translate(10.5 9)" fill="#fff"/>
+    <rect id="사각형_2070" data-name="사각형 2070" width="3" height="9" transform="translate(16 9)" fill="#fff"/>
+  </g>
+</svg>

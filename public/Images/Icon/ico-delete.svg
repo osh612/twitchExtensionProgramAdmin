@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ico-delete" transform="translate(-0.4)">
+    <rect id="사각형_1470" data-name="사각형 1470" width="20" height="20" transform="translate(0.4)" fill="#5d5d5d" opacity="0"/>
+    <path id="합치기_27" data-name="합치기 27" d="M14,16H2V4H0V2H4L5,0h6l1,2h4V4H14V16h0Zm-3.229-2h1.385V6H10.769ZM7.384,14H8.769V6H7.384ZM4,14H5.385V6H4Z" transform="translate(2.4 2)" fill="#ccc"/>
+  </g>
+</svg>
